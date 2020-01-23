@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welke koffie past het beste bij jou?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="www.bobplaza.com"><img src="images/logo_wit.svg" alt="Logo Bobplaza"></a>
+    </header>
+    <section>
+        <form action="">
+            <section>
+                <label for="">Naam:</label>
+                <input type="text" placeholder="Naam" required>
+            </section>
+            <section>
+                <label for="">Leeftijd:</label>
+                <input type="number" placeholder="Leeftijd" required>
+            </section>
+            <section>
+                <label for="">Wat is jouw favoriete kleur?</label>
+                <input type="text" placeholder="Magenta" required>
+            </section>
+            <section class="dagdeel">
+                <label for="">Ik ben een ...</label>
+                <article>
+                    <input type="radio" id="Ochtend" name="Moment" value="Ochtend"><label for="Ochtend">Ochtendmens</label>
+                </article>
+                <article>
+                    <input type="radio" id="Middag" name="Moment" value="Middag"><label for="Middag">Middagmens</label>
+                </article>
+                <article>
+                    <input type="radio" id="Avond" name="Moment" value="Avond"><label for="Avond">Avondmens</label>
+                </article>
+            </section>
+            <section>
+                <label for="">Upload een selfie!</label>
+                <input id="selfie" type="file" capture="user" name="selfie" accept="image/png, image/jpeg, image/jpg" required>
+            </section>
+            <button type="submit">Klaar!</button>
+        </form>
+    </section>
+    <footer>
+        <p>Vragen? Mail naar:</p>
+        <a href="mailto:info@bobplaza.com">info@bobplaza.com</a>
+    </footer>
+</body></html>

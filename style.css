@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: #fff;
+    margin: 0;
+    font-family: Montserrat, Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: #ed008c;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+header a img {
+    width: 14em;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75vw;
+}
+
+section form section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.dagdeel {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: center;
+}
+
+article {
+    margin: 0.1em
+}
+
+footer{
+    background: #582901;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    margin: 1em;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer a {
+    padding-top: 0em;
+    padding-bottom: 3em
+}
+
+footer p{
+    margin-bottom: 0.5em;
+}
+
+a:link {
+    color: #03abec;
+}
+
+a:hover{
+    color: #ed008c;
+}
+
+button {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: #ed008c;
+    border-radius: 50px;;
+    border-color: none;
+    width: 75vw;
+    height: 2em;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover{
+    background: #03abec;
+}
+
+section input{
+    border-radius: 5em;
+    border: solid 0.1em #ed008c;
+    height: 2em;
+    padding: 1em;
+    font: Roboto;
+}
+
+label{
+    color: #582901;
+}
+
+section label:first-child{
+    font-weight: 600;
+    color: #ed008c;
+}
+
+#selfie{
+    border: none;
+    padding-bottom: 3em;
+}
